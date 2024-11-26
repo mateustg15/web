@@ -1,0 +1,114 @@
+:root {
+    --cor1: #063D1E;
+    --cor2: #2FA866;
+    --cor3: #3DDC84;
+    --cor4: #83E1AD;    
+    --cor5: #C5EBD6;
+}
+
+@font-face {
+    font-family: "idroid";
+    src: url('fontes/idroid.otf') format('opentype'); /* Caminho relativo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Heveltica, sans-serif;
+    margin: 0;
+    background-color: var(--cor4);
+}
+
+.titulo {
+    color: white;
+    font-family: Bebas Neue, cursive;
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: 'idroid';
+}
+
+header {
+    background-image: linear-gradient(var(--cor3), var(--cor1));
+    width: auto;
+    height: auto;
+    padding: 10px;
+} 
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+nav > p {
+    margin-bottom: 0;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+main h1 {
+    margin-top: 0;
+}
+
+.centralizar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    background-color: var(--cor1);
+    margin: auto;
+    padding: 20px 0;
+}
+
+.caixa {
+    background-color: var(--cor3);
+    color: white;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.caixa h3, .caixa2 p {
+    margin: 0;
+    padding: 10px;
+}
+
+.caixa2 {
+    background-color: var(--cor5);
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+    
+}
+
+.caixa2 ul {
+    list-style: inside "\2714\00A0\00A0";
+    columns: 2;
+}
+
+aside {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: var(--cor1);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
