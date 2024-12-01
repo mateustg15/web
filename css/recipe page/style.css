@@ -34,7 +34,7 @@ h2 {
     color: hsl(14, 45%, 36%);
 }
 
-.info-box {
+.info-box { 
     background-color: hsl(330, 100%, 98%);
     padding: 20px;
     border-radius: 15px;
@@ -64,3 +64,23 @@ ul.content-list, ol.content-list {
     padding-left: 25px;
     margin-top: 0;
 }
+
+table {
+    width: 100%;
+}
+
+tr :nth-child(even){
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    border-bottom: black;
+}
+
+tr :nth-child(odd){
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+td {
+    padding: 10px;
+}
+
