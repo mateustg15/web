@@ -7,11 +7,14 @@ body {
 }
 
 main {
-    width: 650px;
-    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 650px;
+    min-width: 320px;
+    box-sizing: border-box;
     margin: 0 auto;
     border-radius: 25px;
     padding: 45px;
+    background-color: hsl(0, 0%, 100%);
 }
 
 #omelette-img {
